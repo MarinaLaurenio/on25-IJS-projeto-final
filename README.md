@@ -5,7 +5,7 @@
 #### Projeto Final do Curso de Imersão JS - Reprograma
 
 ### Proposta: 
-As pessoas geralmente desejam ajudar, mas pode ser difícil para elas encontrar informações sobre onde e como doar itens essenciais, como comida, roupas, cobertores e produtos de higiene. Isso resulta em doações dispersas e ineficazes. Pensei em criar uma aplicação para coordenar essas doações, facilitandao a parceria entre organizaçºoes, governos e sociedade. 
+As pessoas geralmente desejam ajudar, mas pode ser difícil para elas encontrar informações sobre onde e como doar itens essenciais, como comida, roupas, cobertores e produtos de higiene. Isso resulta em doações dispersas e ineficazes. Pensei em criar uma aplicação para coordenar essas doações, facilitandao a parceria entre organizaçoes, governos e sociedade. 
 
 
 ### Algumas funcionalidades elaboradas foram: 
