@@ -17,11 +17,11 @@ describe("Testes da Classe Doadores", () => {
   });
 
   test("Deve realizar uma doação de valor", () => {
-    doador1.doarValorAleatorio(100, ong1);
+    doador1.doarValorEmDinheiro(100, ong1);
     expect(ong1.saldoContaBanco).toBe(100);
   });
   test("Deve realizar uma doação anonima de valor", () => {
-    doadorAnonimo1.doarValorAleatorio(5600, ong1);
+    doadorAnonimo1.doarValorEmDinheiro(5600, ong1);
     expect(ong1.saldoContaBanco).toBe(5600);
   });
 

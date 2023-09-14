@@ -12,11 +12,11 @@ const MensagensDeErro = {
 class Doadores {
   nome;
   #numDoc;
-  #bankAccount;
-  constructor(nome, numDoc, bankAccount) {
+  #contaBanco;
+  constructor(nome, numDoc, contaBanco) {
     this.nome = nome;
     this.#numDoc = numDoc;
-    this.#bankAccount = bankAccount;
+    this.#contaBanco = contaBanco;
   }
 
   get numDoc() {
@@ -26,15 +26,15 @@ class Doadores {
     this.#numDoc = novoNumDoc;
   }
 
-  get bankAccount() {
-    return this.#bankAccount;
+  get contaBanco() {
+    return this.#contaBanco;
   }
-  set bankAccount(newBankAccount) {
-    this.#bankAccount = newBankAccount;
+  set contaBanco(novaContaBanco) {
+    this.#contaBanco = novaContaBanco;
   }
 
-  doarValorAleatorio(valor, entidade) {
-    this.validardadosDoacao(entidade);
+  doarValorEmDinheiro(valor, entidade) {
+    this.validarDadosDoacao(entidade);
 
     if (valor <= 0) {
       throw new Error(MensagensDeErro.VALOR_INVALIDO);
@@ -46,7 +46,7 @@ class Doadores {
   }
 
   doarItem(itemNome, qntItem, entidade) {
-    this.validardadosDoacao(entidade);
+    this.validarDadosDoacao(entidade);
 
     let item = entidade.itens.find((item) => item.nome === itemNome);
 
@@ -64,7 +64,7 @@ class Doadores {
     );
   }
 
-  validardadosDoacao(entidade) {
+  validarDadosDoacao(entidade) {
     if (!(entidade instanceof ONGs || entidade instanceof CasasAcolhimento)) {
       throw new Error(MensagensDeErro.ENTIDADE_NAO_ENCONTRADA);
     }
