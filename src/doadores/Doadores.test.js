@@ -1,7 +1,7 @@
 const { Doadores } = require("./Doadores");
 const { ONGs } = require("../recebedores/ONGs");
 const { CasasAcolhimento } = require("../recebedores/CasasAcolhimento");
-const { DoadoresAnonimos } = require("./DoadoresAnonimos,");
+const { DoadoresAnonimos } = require("./DoadoresAnonimos");
 
 describe("Testes da Classe Doadores", () => {
   let ong1;

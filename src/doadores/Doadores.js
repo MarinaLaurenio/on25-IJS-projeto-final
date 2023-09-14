@@ -55,7 +55,7 @@ class Doadores {
     }
 
     if (qntItem > item.qnt) {
-      throw new Error(MensagensDeErro.ENTIDADE_NAO_ENCONTRADA);
+      throw new Error(MensagensDeErro.QUANTIDADE_INVALIDA);
     }
 
     item.qnt -= qntItem;
