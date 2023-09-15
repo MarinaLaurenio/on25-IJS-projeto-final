@@ -16,6 +16,7 @@ As pessoas geralmente desejam ajudar, mas pode ser difícil para elas encontrar 
 
 ### Detalhes técnicos:
 Pra elaborar o projeto, utilizei o método do TDD (Test Driven Development) para criar os testes e os métodos, seguindo os princípios do Clean Code e SOLID.
+Além disso, tentei implementar os conteúdos estudados em sala, como herança, polimorfismo, abstração e encapsulamento. 
 
 ### Stack utilizada:
 - Node.js

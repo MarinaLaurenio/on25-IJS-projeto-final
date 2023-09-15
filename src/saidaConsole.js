@@ -40,6 +40,7 @@ console.log(Recebedor.totalRecebedores); /*
 ]
 */
 
+
 // ---- CADASTRAR UM ITEM PELA ONG
 
 ong1.cadastrarItem("Toalha", 15, 30); //Item: toalha. Foi cadastrado com sucesso!
@@ -58,6 +59,8 @@ ong1.removerItem(1); // Item: Arroz. Foi removido(a) da lista.
 
 console.log(ong1.itens); // [ { id: 0, nome: 'Toalha', qnt: 15, preco: 30 } ]
 
+
+
 // ------- DOAR UM ITEM CADASTRADO DA ONG
 // Erro um item não existente:
 // doador1.doarItem("Feijao", 5 , ong1) // Error: Item não encontrado.
@@ -69,6 +72,10 @@ console.log(ong1.itens); // [ { id: 0, nome: 'Toalha', qnt: 15, preco: 30 } ]
 //doador1.doarItem("Toalha", 50, ong1) // Error: Quantidade inválida para a doação.
 
 doador1.doarItem("Toalha", 10, ong1); // Doação de: item: Toalha - qnt: 10, realizada com sucesso para NomeONG1.
+
+
+
+
 
 // --------- DOAR VALOR EM DINHEIRO PARA UMA ONG:
 
