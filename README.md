@@ -9,7 +9,7 @@ As pessoas geralmente desejam ajudar, mas pode ser difícil para elas encontrar 
 
 
 ### Algumas funcionalidades elaboradas foram: 
-- Cadastro de entidades 
+- Cadastro de entidades recebedoras
     - Essas entidades podem cadastrar novos itens, remover e alterar. 
 - Cadastro de pessoas doadoras
     - Essas pessoas podem doar os itens cadastrados pelas entidades, ou doar valores em dinheiro. 
